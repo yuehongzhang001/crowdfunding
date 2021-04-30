@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: SCW-WEBUI
+    
+  redis:
+    host: 139.224.134.45
+    port: 6379
+    
+  session:    store-type: redis
+  
+  thymeleaf:    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+    mode: LEGACYHTML5
+    
+eureka:  client:    service-url:      defaultZone: http://localhost:8761/eureka/
+  instance:    appname: SCW-WEBUI
+    prefer-ip-address: true 
+
+server:  port: 8200
+  
+feign:  hystrix:    enabled: true
+
+logging:  level:    com: 
+      atguigu:
+        scw: debug
+  file:
+    name: D:/scw-webui.log
+  
+  
+  

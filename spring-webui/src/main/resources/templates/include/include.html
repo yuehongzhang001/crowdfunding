@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div th:fragment="cssStyle">
+	<link rel="stylesheet" href="../static/static/bootstrap/css/bootstrap.min.css" th:href="@{/static/bootstrap/css/bootstrap.min.css}">
+	<link rel="stylesheet" href="../static/static/css/font-awesome.min.css" th:href="@{/static/css/font-awesome.min.css}">
+	<link rel="stylesheet" href="../static/static/css/carousel.css" th:href="@{/static/css/carousel.css}">
+</div>
+
+<span id="js">
+	 <script src="../static/static/jquery/jquery-2.1.1.min.js" th:src="@{/static/jquery/jquery-2.1.1.min.js}"></script>
+    <script src="../static/static/bootstrap/js/bootstrap.min.js" th:src="@{/static/bootstrap/js/bootstrap.min.js}"></script>
+	<script src="../static/static/script/docs.min.js" th:src="@{/static/script/docs.min.js}"></script>
+    <script src="../static/static/script/back-to-top.js" th:src="@{/static/script/back-to-top.js}"></script>
+</span>   
+
+</body>
+</html>

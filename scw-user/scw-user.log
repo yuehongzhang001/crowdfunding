@@ -1,0 +1,20 @@
+2021-04-27 00:01:51.064  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:06:51.188  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:11:51.189  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:16:51.191  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:21:51.192  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:26:51.194  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:31:51.196  INFO 1628 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-04-27 00:34:16.331  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-27 00:34:16.449  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SCW-USER with eureka with status DOWN
+2021-04-27 00:34:16.450  WARN 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1619501656450, current=DOWN, previous=UP]
+2021-04-27 00:34:16.451  INFO 1628 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/DESKTOP-FRO4TTF:SCW-USER:8000: registering service...
+2021-04-27 00:34:16.643  INFO 1628 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/DESKTOP-FRO4TTF:SCW-USER:8000 - registration status: 204
+2021-04-27 00:34:16.692  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:34:16.918  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-04-27 00:34:16.926  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-04-27 00:34:19.928  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-04-27 00:34:19.934  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_SCW-USER/DESKTOP-FRO4TTF:SCW-USER:8000 - deregister  status: 200
+2021-04-27 00:34:19.968  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-04-27 00:34:20.368  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-04-27 00:34:20.385  INFO 1628 --- [RMI TCP Connection(512)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

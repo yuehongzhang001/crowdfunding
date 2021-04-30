@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link href="/static/css/login.css" th:href="@{/static/css/login.css}">
+</head>
+<body>
+<!‐‐th:text 将div里面的文本内容设置为 ‐‐>
+<div th:text="${path}">这是显示欢迎信息</div>
+<div th:text="${hello}">这是显示欢迎信息</div>
+<script type="text/javascript" src="/static/jquery/jquery-2.1.1.min.js" th:src="@{/static/jquery/jquery-2.1.1.min.js}"></script>
+</body>
+</html>
