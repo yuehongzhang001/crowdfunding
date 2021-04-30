@@ -2,7 +2,7 @@ package com.atguigu.scw.enums;
 
 public enum AccttypeEnume {
 	
-	COMANY((byte)0,"商业公司"),
+	COMANY((byte)0,"Company"),
 	BUSINESS_MAN((byte)1,"个体工商户"),
 	PERSON((byte)2,"个人经营"),
 	GOVERNMENT((byte)3,"政府非盈利组织");
