@@ -1,45 +1,0 @@
-spring:
-  application:    name: SCW-PROJECT
-  datasource:
-    username: root
-    password: 1234
-    url: jdbc:mysql://192.168.27.128:3306/atcrowdfunding210326?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-    driver-class-name: com.mysql.cj.jdbc.Driver
-#    type: com.alibaba.druid.pool.DruidDataSource
-#    filters: stat
-  redis:
-    host: 192.168.27.128
-    port: 6379
-  servlet:    multipart:      enabled: true
-      file-size-threshold: 0
-      max-file-size: 100MB      max-request-size: 100MB        
-mybatis:
-  config-location: classpath:/mybatis/mybatis-config.xml
-  mapper-locations: classpath:/mybatis/mapper/*.xml
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    appname: SCW-PROJECT
-    prefer-ip-address: true
-
-server:
-  port: 8100
-
-logging:
-  file:
-    name: scw-project.log
-  level:
-    com.atguigu.scw: debug
-    
-oss:
-  endpoint: oss-us-west-1.aliyuncs.com
-  accessKeyId: LTAI5t6AJoMPsLEDNp51x1e5
-  accessKeySecret: JhsqkNEwOysW61o7L9PJwpCWa6s0M0
-  bucket: scw20210422
-  
-swagger2:
-  enable: true
-
